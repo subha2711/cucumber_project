@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3479318600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "to-test-the-select-box-functionality;sky-blue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 757484700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 518003600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyBlue Background",
+                  "offset": 1
+                }
+              ],
+              "location": "TestSteps.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101348700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the button;",
+            "match": {
+              "location": "TestSteps.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60952400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "TestSteps.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2402827600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.launchBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "White Background Change",
+        "description": "",
+        "id": "to-test-the-select-box-functionality;white-background-change",
+        "after": [
+          {
+            "result": {
+              "duration": 799796500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150763300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyWhite Background",
+                  "offset": 1
+                }
+              ],
+              "location": "TestSteps.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56241100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the button",
+            "match": {
+              "location": "TestSteps.i_click_on_the_button1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36132100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "TestSteps.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the select box functionality",
+    "description": "",
+    "id": "to-test-the-select-box-functionality",
+    "keyword": "Feature",
+    "uri": "features/TFPractice.feature"
+  }
+]
